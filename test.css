@@ -1,0 +1,37 @@
+body{
+  background-image: url("VMI封面.jpeg");
+  background-size: cover;       /* 铺满 */
+  background-repeat: no-repeat; /* 不重复 */
+  background-position: center;  /* 居中 */
+}
+#封面图{
+  margin: 0 auto; /* 左右自动分配 */
+  height: 200px;
+  width: 200px;
+}
+#所有{
+  position: relative;
+  top: 60px; /* 相对原位置往下移 50px */
+  border-radius: 1px;  
+  width: 200px;
+  margin: 0 auto; /* 左右自动分配 */
+  padding: 100px;
+}
+#测试用户名输入{
+  margin-bottom:50px;
+  margin-left: 20px;
+}
+#测试密码输入{
+  margin-bottom:50px;
+  margin-left: 20px;
+}
+#测试按钮{
+  opacity: 0.5;
+  margin-bottom:5px;
+  margin-left:60px;
+}
+#所有{
+  opacity: 0.8;
+  background-color: white;
+
+}
