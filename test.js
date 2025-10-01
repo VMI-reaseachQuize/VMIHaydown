@@ -1,6 +1,6 @@
 let time = 0;
 async function tstFunction(){
-    if(time <= 1){
+    if(time < 1){
         time++;
         alert("Either your username is incorrect, or your password is incorrect.")
     }else{
